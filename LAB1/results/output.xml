@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.10 on win32)" generated="2025-07-29T16:45:50.663882" rpa="false" schemaversion="5">
+<suite id="s1" name="LAB1" source="C:\Users\JUMIASN\Desktop\ISI\QA\Examen_2nd_Sem\LAB1">
+<suite id="s1-s1" name="Testcases" source="C:\Users\JUMIASN\Desktop\ISI\QA\Examen_2nd_Sem\LAB1\testcases">
+<suite id="s1-s1-s1" name="Lab1 Test" source="C:\Users\JUMIASN\Desktop\ISI\QA\Examen_2nd_Sem\LAB1\testcases\lab1_test.robot">
+<test id="s1-s1-s1-t1" name="Create Auth - Valid" line="171">
+<kw name="Creer auth" owner="lab1">
+<msg time="2025-07-29T16:45:51.748881" level="INFO">${id} = 6888fabe5200bd40e5ae674e</msg>
+<var>${id}</var>
+<arg>${AUTH_VALID}</arg>
+<status status="PASS" start="2025-07-29T16:45:50.814214" elapsed="0.934667"/>
+</kw>
+<kw name="Should Not Be Equal" owner="BuiltIn">
+<msg time="2025-07-29T16:45:51.748881" level="INFO">Argument types are:
+&lt;class 'bson.objectid.ObjectId'&gt;
+&lt;class 'NoneType'&gt;</msg>
+<arg>${id}</arg>
+<arg>${NONE}</arg>
+<doc>Fails if the given objects are equal.</doc>
+<status status="PASS" start="2025-07-29T16:45:51.748881" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-07-29T16:45:50.814214" elapsed="0.934667"/>
+</test>
+<status status="PASS" start="2025-07-29T16:45:50.704107" elapsed="1.044774"/>
+</suite>
+<status status="PASS" start="2025-07-29T16:45:50.696700" elapsed="1.062237"/>
+</suite>
+<status status="PASS" start="2025-07-29T16:45:50.669206" elapsed="1.092546"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LAB1" id="s1" pass="1" fail="0" skip="0">LAB1</stat>
+<stat name="Testcases" id="s1-s1" pass="1" fail="0" skip="0">LAB1.Testcases</stat>
+<stat name="Lab1 Test" id="s1-s1-s1" pass="1" fail="0" skip="0">LAB1.Testcases.Lab1 Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
